@@ -27,7 +27,7 @@ module Sinatra
         if Sinatra::Application.environment == :production
           @@logger = Le.new(@@token)
         else
-          @@logger = Le.new(@@token, true)
+          @@logger = Le.new(@@token, local: true)
         end
       }.call
     end
