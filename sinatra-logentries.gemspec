@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Adds logging with Logentries}
   gem.summary       = %q{Easy logging in Sinatra with Logentries}
   gem.homepage      = %q{http://github.com/tsantef/sinatra-logentries}
+  gem.license       = %q{MIT}
 
   gem.add_dependency("le", ">= 2.1.6")
   gem.files         = `git ls-files`.split($/)
